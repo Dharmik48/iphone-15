@@ -121,7 +121,7 @@ const Carousel = () => {
 							key={slide.id}
 							className={`mx-2 ${
 								slide.id === current ? 'w-10' : 'w-2'
-							} h-2 bg-gray-200 rounded-full relative cursor-pointer transition-all`}
+							} h-2 bg-gray-200 overflow-hidden rounded-full relative cursor-pointer transition-all`}
 							onClick={() => changeTo(slide.id)}
 						>
 							<span
