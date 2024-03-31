@@ -1,6 +1,7 @@
 import Hero from './components/Hero'
 import Highlights from './components/Highlights'
 import Nav from './components/Nav'
+import Features from './components/Features'
 
 function App() {
 	return (
@@ -8,6 +9,7 @@ function App() {
 			<Nav />
 			<Hero />
 			<Highlights />
+			<Features />
 		</>
 	)
 }
