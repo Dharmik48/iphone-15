@@ -2,6 +2,7 @@ import Hero from './components/Hero'
 import Highlights from './components/Highlights'
 import Nav from './components/Nav'
 import Features from './components/Features'
+import Gaming from './components/Gaming'
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			<Hero />
 			<Highlights />
 			<Features />
+			<Gaming />
 		</>
 	)
 }
